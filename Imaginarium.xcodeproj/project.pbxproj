@@ -15,6 +15,7 @@
 		D787A9061C99A6090013A80C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D787A9041C99A6090013A80C /* LaunchScreen.storyboard */; };
 		D787A9111C99A6090013A80C /* ImaginariumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D787A9101C99A6090013A80C /* ImaginariumTests.m */; };
 		D787A91C1C99A6090013A80C /* ImaginariumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D787A91B1C99A6090013A80C /* ImaginariumUITests.m */; };
+		D787A92C1C99B89C0013A80C /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D787A92B1C99B89C0013A80C /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D787A9171C99A6090013A80C /* ImaginariumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginariumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D787A91B1C99A6090013A80C /* ImaginariumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumUITests.m; sourceTree = "<group>"; };
 		D787A91D1C99A6090013A80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D787A92A1C99B89C0013A80C /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		D787A92B1C99B89C0013A80C /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				D787A8FF1C99A6090013A80C /* Main.storyboard */,
-				D787A8F91C99A6090013A80C /* ImaginariumAppDelegate.h */,
-				D787A8FA1C99A6090013A80C /* ImaginariumAppDelegate.m */,
+				D787A92A1C99B89C0013A80C /* ImageViewController.h */,
+				D787A92B1C99B89C0013A80C /* ImageViewController.m */,
 				D787A8FC1C99A6090013A80C /* ImaginariumViewController.h */,
 				D787A8FD1C99A6090013A80C /* ImaginariumViewController.m */,
 				D787A8F61C99A6090013A80C /* Supporting Files */,
@@ -114,6 +117,8 @@
 		D787A8F61C99A6090013A80C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D787A8F91C99A6090013A80C /* ImaginariumAppDelegate.h */,
+				D787A8FA1C99A6090013A80C /* ImaginariumAppDelegate.m */,
 				D787A9041C99A6090013A80C /* LaunchScreen.storyboard */,
 				D787A9021C99A6090013A80C /* Assets.xcassets */,
 				D787A9071C99A6090013A80C /* Info.plist */,
@@ -275,6 +280,7 @@
 			files = (
 				D787A8FE1C99A6090013A80C /* ImaginariumViewController.m in Sources */,
 				D787A8FB1C99A6090013A80C /* ImaginariumAppDelegate.m in Sources */,
+				D787A92C1C99B89C0013A80C /* ImageViewController.m in Sources */,
 				D787A8F81C99A6090013A80C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
